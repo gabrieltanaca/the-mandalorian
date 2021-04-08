@@ -1,14 +1,21 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
+export const TitleContainer = styled.div`
+  grid-area: smalltitle;
+
   display: flex;
-  align-items: flex-start;
+  align-items: center;
+  padding-left: 7%;
 
   h4 {
-    color: #ffffff;
-  }
-
-  p {
+    font-size: 24px;
     color: #6c6c71;
+
+    display: flex;
+    flex-direction: row;
+
+    h4 {
+      color: #ffffff;
+    }
   }
 `;

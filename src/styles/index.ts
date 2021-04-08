@@ -14,7 +14,7 @@ export const Background = styled.div`
 
 export const Container = styled.div`
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 68vw 32vw;
   grid-template-rows: 15vh 45vh 40vh;
   grid-template-areas: "smalltitle profile" ". projects" "title projects";
 `;

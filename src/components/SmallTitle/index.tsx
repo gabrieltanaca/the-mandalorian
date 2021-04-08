@@ -1,13 +1,24 @@
 import React from "react";
 
-import { Container } from "./styles";
+import { TitleContainer } from "./styles";
 
 const SmallTitle: React.FC = () => {
   return (
-    <Container>
-      <p>The</p>
-      <h4>&nbsp;Mandalorian</h4>
-    </Container>
+    <>
+      <TitleContainer>
+        <h4>
+          The<h4>&nbsp;Mandalorian</h4>
+        </h4>
+      </TitleContainer>
+      <img
+        src="listIcon.svg"
+        alt="List Icon"
+        style={{
+          display: "flex",
+          alignSelf: "center",
+        }}
+      />
+    </>
   );
 };
 

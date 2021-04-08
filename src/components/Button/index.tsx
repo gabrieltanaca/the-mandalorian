@@ -4,12 +4,20 @@ import { Container } from "./styles";
 
 interface ButtonProps {
   title: string;
+  whiteButton?: boolean;
 }
 
-const Button = ({ title }: ButtonProps) => {
+const Button = ({ title, whiteButton }: ButtonProps) => {
   return (
     <Container>
-      <button>{title}</button>
+      <button
+        style={{
+          backgroundColor: whiteButton ? "transparent" : "",
+          borderColor: whiteButton ? "#fff" : "",
+        }}
+      >
+        {title}
+      </button>
     </Container>
   );
 };

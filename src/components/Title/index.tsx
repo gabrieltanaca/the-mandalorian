@@ -11,7 +11,7 @@ const Title: React.FC = () => {
       </h1>
       <div className="buttons">
         <Button title="Watch On Disney+" />
-        <Button title="Watch the trailer" />
+        <Button title="Watch the trailer" whiteButton />
       </div>
     </Container>
   );

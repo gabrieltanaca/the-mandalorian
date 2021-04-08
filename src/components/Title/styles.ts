@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   grid-area: title;
-  margin-left: 100px;
+  margin-left: 7%;
 
   h1 {
     display: flex;
