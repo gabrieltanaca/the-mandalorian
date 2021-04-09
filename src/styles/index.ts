@@ -10,12 +10,23 @@ export const Background = styled.div`
   height: 100vh;
 
   display: flex;
+
+  animation: background 9s ease-out 1 forwards;
+
+  @keyframes background {
+    from {
+      background-size: 130%;
+    }
+    to {
+      background-size: 100%;
+    }
+  }
 `;
 
 export const Container = styled.div`
   display: grid;
   grid-template-columns: 68vw 32vw;
-  grid-template-rows: 15vh 45vh 40vh;
+  grid-template-rows: 15vh 40vh 45vh;
   grid-template-areas: "smalltitle profile" ". projects" "title projects";
 
   .projects {

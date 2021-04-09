@@ -20,4 +20,6 @@ export const TitleContainer = styled.div`
       color: #ffffff;
     }
   }
+
+  animation: title 1s 1.5s;
 `;

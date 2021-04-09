@@ -6,12 +6,18 @@ import { Container } from "./styles";
 const Title: React.FC = () => {
   return (
     <Container>
-      <h1>
-        The Manda<p>lorian</p>
-      </h1>
+      <div className="title">
+        <div className="Manda">
+          <h1>The Manda</h1>
+        </div>
+        <div className="Lorian">
+          <p>lorian</p>
+        </div>
+      </div>
+
       <div className="buttons">
         <Button title="Watch On Disney+" />
-        <Button title="Watch the trailer" whiteButton />
+        <Button title="Watch the trailer" whiteButton className="whiteButton" />
       </div>
     </Container>
   );

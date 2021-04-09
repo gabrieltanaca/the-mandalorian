@@ -5,11 +5,12 @@ import { Container } from "./styles";
 interface ButtonProps {
   title: string;
   whiteButton?: boolean;
+  className?: string;
 }
 
-const Button = ({ title, whiteButton }: ButtonProps) => {
+const Button = ({ title, whiteButton, className }: ButtonProps) => {
   return (
-    <Container>
+    <Container className={className}>
       <button
         style={{
           backgroundColor: whiteButton ? "transparent" : "",
@@ -17,7 +18,7 @@ const Button = ({ title, whiteButton }: ButtonProps) => {
           color: whiteButton ? "#fff" : "",
         }}
       >
-        {title}
+        <p>{title}</p>
       </button>
     </Container>
   );
