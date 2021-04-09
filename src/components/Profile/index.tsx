@@ -1,18 +1,21 @@
-import { ReactNode } from 'react';
+import React from "react";
 
-import { Container } from './styles';
+import { Container } from "./styles";
 
-interface ProfileProps {
-  children: ReactNode;
-}
+interface ProfileProps {}
 
-function Profile({ children }: ProfileProps) {
+const Profile = () => {
   return (
     <Container>
-      <h1>Profile</h1>
-      {children}
+      <div className="profileContainer">
+        <img src="ProfileImage.png" alt="Profile" />
+
+        <div className="profileTitle">
+          <p>Gabriel Tanaca</p>
+          <p className="title">Desenvolvedor Front-End</p>
+        </div>
+      </div>
     </Container>
   );
 };
-
 export default Profile;

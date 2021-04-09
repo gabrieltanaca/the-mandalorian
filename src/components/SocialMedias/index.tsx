@@ -1,18 +1,19 @@
-import { ReactNode } from 'react';
+import { ReactNode } from "react";
 
-import { Container } from './styles';
+import { Container } from "./styles";
 
 interface SocialMediasProps {
   children: ReactNode;
 }
 
-function SocialMedias({ children }: SocialMediasProps) {
+function SocialMedias() {
   return (
     <Container>
-      <h1>SocialMedias</h1>
-      {children}
+      <p>Instagram</p>
+      <p>Linkedin</p>
+      <p>GitHub</p>
     </Container>
   );
-};
+}
 
 export default SocialMedias;

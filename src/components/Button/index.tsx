@@ -14,6 +14,7 @@ const Button = ({ title, whiteButton }: ButtonProps) => {
         style={{
           backgroundColor: whiteButton ? "transparent" : "",
           borderColor: whiteButton ? "#fff" : "",
+          color: whiteButton ? "#fff" : "",
         }}
       >
         {title}

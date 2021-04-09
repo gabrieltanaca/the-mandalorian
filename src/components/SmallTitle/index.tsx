@@ -1,25 +1,20 @@
 import React from "react";
-
+import { BsList } from "react-icons/bs";
 import { TitleContainer } from "./styles";
 
-const SmallTitle: React.FC = () => {
+function SmallTitle() {
   return (
     <>
       <TitleContainer>
         <h4>
           The<h4>&nbsp;Mandalorian</h4>
         </h4>
+        <div>
+          <BsList color="#ffffff" size="2.3vw" />
+        </div>
       </TitleContainer>
-      <img
-        src="listIcon.svg"
-        alt="List Icon"
-        style={{
-          display: "flex",
-          alignSelf: "center",
-        }}
-      />
     </>
   );
-};
+}
 
 export default SmallTitle;

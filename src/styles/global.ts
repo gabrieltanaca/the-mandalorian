@@ -15,6 +15,7 @@ export default createGlobalStyle`
 
   button {
     border: 0;
+    cursor: pointer;
   }
 
 @media (max-width: 1080px) {

@@ -5,11 +5,13 @@ export const TitleContainer = styled.div`
 
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding-left: 7%;
 
   h4 {
-    font-size: 24px;
-    color: #6c6c71;
+    font-size: 26px;
+    letter-spacing: 0.05em;
+    color: #9ea8ab;
 
     display: flex;
     flex-direction: row;

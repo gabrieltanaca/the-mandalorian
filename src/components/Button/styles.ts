@@ -10,7 +10,16 @@ export const Container = styled.div`
 
     color: #ffffff;
     font-size: 24px;
+    letter-spacing: 0.1em;
 
     border: 3px solid #0b0b0f;
+
+    transition: all 0.6s;
+
+    &:hover {
+      background-color: #ffffff;
+      border: 3px solid #ffffff;
+      color: #0b0b0f;
+    }
   }
 `;

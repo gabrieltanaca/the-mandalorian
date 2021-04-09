@@ -17,4 +17,9 @@ export const Container = styled.div`
   grid-template-columns: 68vw 32vw;
   grid-template-rows: 15vh 45vh 40vh;
   grid-template-areas: "smalltitle profile" ". projects" "title projects";
+
+  .projects {
+    display: grid;
+    grid-area: projects;
+  }
 `;

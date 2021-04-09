@@ -1,22 +1,31 @@
 import React from "react";
+import { AiOutlinePlayCircle } from "react-icons/ai";
 
 import { Container } from "./styles";
 
 interface EpisodeProps {
   cap: string;
+  backgroundImage: string;
 }
 
-const Episode = ({ cap }: EpisodeProps) => {
+const Episode = ({ cap, backgroundImage }: EpisodeProps) => {
   return (
     <Container>
-      <div>
-        <div className="play">
-          <div className="circle">
-            <div className="triangle"></div>
-          </div>
-        </div>
+      <div
+        className="video"
+        style={{
+          background: `linear-gradient(
+          180deg,
+          rgba(0, 0, 0, 0) 0%,
+          rgba(0, 0, 0, 0.7) 100%
+        ),url(${backgroundImage})`,
+          backgroundSize: `16vw 9vw`,
+          backgroundRepeat: `no-repeat`,
+        }}
+      >
+        <AiOutlinePlayCircle color="#ffffff" />
 
-        <h5>Episode - {cap}</h5>
+        <p>Episódio #{cap}</p>
       </div>
     </Container>
   );
