@@ -8,7 +8,7 @@ export const TitleContainer = styled.div`
   justify-content: space-between;
   padding-left: 7%;
 
-  h4 {
+  p {
     font-size: 26px;
     letter-spacing: 0.05em;
     color: #9ea8ab;
@@ -16,7 +16,7 @@ export const TitleContainer = styled.div`
     display: flex;
     flex-direction: row;
 
-    h4 {
+    p {
       color: #ffffff;
     }
   }

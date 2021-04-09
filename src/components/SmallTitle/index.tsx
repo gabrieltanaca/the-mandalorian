@@ -6,9 +6,9 @@ function SmallTitle() {
   return (
     <>
       <TitleContainer>
-        <h4>
-          The<h4>&nbsp;Mandalorian</h4>
-        </h4>
+        <p>
+          The<p>&nbsp;Mandalorian</p>
+        </p>
         <div>
           <BsList color="#ffffff" size="2.3vw" />
         </div>

@@ -17,6 +17,9 @@ export default createGlobalStyle`
     border: 0;
     cursor: pointer;
   }
+  p, h1{
+    cursor: default;
+  }
 
 @media (max-width: 1080px) {
   html {

@@ -14,7 +14,7 @@ export const Container = styled.div`
 
     border: 3px solid #0b0b0f;
 
-    transition: all 0.6s;
+    transition: ease-in-out 0.6s;
 
     &:hover {
       background-color: #ffffff;
