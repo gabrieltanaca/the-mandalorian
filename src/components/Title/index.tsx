@@ -16,8 +16,16 @@ const Title: React.FC = () => {
       </div>
 
       <div className="buttons">
-        <Button title="Watch On Disney+" />
-        <Button title="Watch the trailer" whiteButton className="whiteButton" />
+        <Button
+          title="Watch On Disney+"
+          link="https://www.disneyplus.com/pt-br/home"
+        />
+        <Button
+          title="Watch the trailer"
+          whiteButton
+          className="whiteButton"
+          link="https://www.youtube.com/watch?v=eW7Twd85m2g&ab_channel=StarWars"
+        />
       </div>
     </Container>
   );
