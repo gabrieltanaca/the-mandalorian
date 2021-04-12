@@ -2,7 +2,7 @@
     <img src="https://ik.imagekit.io/tanakawithc0947283/Logo_Mandalorian_zBMeJuhWt.png">
 </h1>
 
-<h1>
+<h1 align="center">
     <img src="public/apresentacao.gif">
 </h1>
 
