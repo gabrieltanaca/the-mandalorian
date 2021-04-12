@@ -6,6 +6,7 @@ export const TitleContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+
   padding-left: 7%;
 
   p {
@@ -20,6 +21,19 @@ export const TitleContainer = styled.div`
       color: #ffffff;
     }
   }
+  padding-top: 5%;
+  opacity: 0%;
 
-  animation: title 1s 1.5s;
+  animation: title 1s 1s ease-out forwards;
+
+  @keyframes title {
+    from {
+      padding-top: 5%;
+      opacity: 0%;
+    }
+    to {
+      padding-top: 0%;
+      opacity: 100%;
+    }
+  }
 `;

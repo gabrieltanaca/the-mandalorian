@@ -14,17 +14,18 @@ export const Container = styled.div`
       position: relative;
       overflow: hidden;
 
-      width: 35.53vw;
+      width: 34vw;
       height: 20vh;
 
       h1 {
-        font-size: 150px;
+        font-size: calc(8px + 8.7vw);
+
         color: #ffffff;
         -webkit-text-stroke: 2px #ffffff;
         position: absolute;
         top: -106%;
 
-        animation: mando 1s 1s ease-out forwards;
+        animation: mando 1.2s 1s ease-out forwards;
 
         @keyframes mando {
           from {
@@ -45,7 +46,7 @@ export const Container = styled.div`
 
       p {
         -webkit-text-fill-color: transparent;
-        font-size: 150px;
+        font-size: calc(8px + 8.7vw);
         color: #ffffff;
         -webkit-text-stroke: 2px #ffffff;
         position: absolute;
@@ -71,6 +72,7 @@ export const Container = styled.div`
 
     .whiteButton {
       transition: ease-in 0.6s;
+
       &:hover {
         background-color: #ffffff;
       }

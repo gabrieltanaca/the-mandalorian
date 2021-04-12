@@ -10,7 +10,7 @@ const Profile = () => {
       <div className="profileContainer">
         <img src="ProfileImage.png" alt="Profile" />
 
-        <div className="profileTitle">
+        <div className="profileName">
           <p>Gabriel Tanaca</p>
           <p className="title">Desenvolvedor Front-End</p>
         </div>

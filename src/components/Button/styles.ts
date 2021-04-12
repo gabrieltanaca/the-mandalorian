@@ -12,7 +12,7 @@ export const Container = styled.div`
 
     transition: ease-in-out 0.6s;
 
-    animation: button 2s 0.5s ease-in-out 1 forwards;
+    animation: button 2s 1s ease-in-out 1 forwards;
 
     @keyframes button {
       from {
@@ -20,21 +20,21 @@ export const Container = styled.div`
         border-width: 0px;
       }
       to {
-        width: 19vw;
+        width: 20vw;
         border-width: 3px;
       }
     }
 
     p {
       color: #ffffff;
-      font-size: 24px;
+      font-size: calc(8px + 1vw);
       letter-spacing: 0.1em;
 
       opacity: 0%;
 
       transition: ease-in 0.6s;
 
-      animation: text 1s 2.5s ease-in 1 forwards;
+      animation: text 1s 2.5s linear 1 forwards;
 
       @keyframes text {
         from {
